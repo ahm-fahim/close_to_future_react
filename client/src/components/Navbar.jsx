@@ -10,7 +10,7 @@ const Navbar = () => {
         {navLinks.map((nav, idx) => (
           <li
             key={nav.id}
-            className={`font-poppins`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] text-white mr-10 `}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>

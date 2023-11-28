@@ -2,5 +2,5 @@ while true; do
     git add .
     git commit -m 'updated'
     git push 
-    sleep 100
+    sleep 60
 done

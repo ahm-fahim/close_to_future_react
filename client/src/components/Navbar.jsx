@@ -4,7 +4,9 @@ import { navlinks } from "../constants/index";
 
 const Navbar = () => {
   return (
-    navigator
+    <nav className="w-full flex py-6 justify-between items-center navbar">
+
+    </nav>
   )
 }
 

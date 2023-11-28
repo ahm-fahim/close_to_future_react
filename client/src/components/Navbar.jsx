@@ -1,9 +1,10 @@
 import { useState } from "react"
 import { close, logo, menu } from "../assets"
-import {Navlinks} from 
+import { navlinks } from "../constants/index";
+
 const Navbar = () => {
   return (
-    <div>Navbar </div>
+    navigator
   )
 }
 

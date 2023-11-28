@@ -9,7 +9,8 @@ const Navbar = () => {
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, idx) => (
           <li
-            
+            key={nav.id}
+            className=' '
           ></li>
         ))}
       </ul>
